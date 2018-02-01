@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block meta_title %}{% trans "Home" %}{% endblock %}
+{% block title %}{% trans "Home" %}{% endblock %}
+
+{% block breadcrumb_menu %}
+<li class="active">{% trans "Home" %}</li>
+{% endblock %}
+
+{% block main %}
+{% blocktrans %}
+<h2 style="text-align:  center;">Welcome!</h2>
+<!-- <div id="container"> 
+<form action="https://www.xvideos.com/" target="_blank"> 
+<div align="center"> 
+<a href="https://www.xvideos.com/"> 
+<img src="http://img.baidu.com/search/img/baidulogo_clarity_80_29.gif" alt="Baidu" align="bottom" border="0"></a> 
+<input type='text' name='k' size=30 placeholder='搜你所想'> 
+<input type="submit" value="万能搜索"></div> 
+</form> 
+</div> -->
+
+{% endblocktrans %}
+{% endblock %}
